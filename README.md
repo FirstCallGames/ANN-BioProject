@@ -25,12 +25,12 @@ cd ArtificialNeuralNetwork
 ## Usage
 ### Running the Model
 ```bash
-python train.py --epochs 50 --batch_size 32 --lr 0.001
+python TrainingAIModel.py
 ```
 
 ### Testing the Model
 ```bash
-python test.py --model saved_model.pth --dataset test_data.csv
+python ArtificialNeuralNetwork.py
 ```
 
 ## Configuration
